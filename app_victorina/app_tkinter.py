@@ -42,10 +42,10 @@ def que_one(dict_riddles):
 
     title.grid(row=1, padx=70)
     question.grid(row=2, padx=70)
-    answer.grid(row=3, )
-    btn1.grid(row=4, )
-    btn2.grid(row=5, )
-    count.grid(row=6, )
+    answer.grid(row=3)
+    btn1.grid(row=4)
+    btn2.grid(row=5)
+    count.grid(row=6)
 
     def game(value):
         global status
